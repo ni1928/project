@@ -1,0 +1,20 @@
+@media (max-width: 768px) {
+    .last-part-container-card{
+      width: 100%; /* Make the container full width on smaller screens */
+    }
+    .card-container,
+    .card-conteiner-one,
+    .card-container-last-part {
+      flex-direction: column; /* Stack the elements vertically on smaller screens */
+    }
+  
+    .trending-img {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .article {
+      margin-right:10px; /* Remove margin between the article and the next card-container on smaller screens */
+    }
+  }
+  
